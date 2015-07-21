@@ -1,23 +1,23 @@
 <?php
 
-namespace Enabler\Foundation;
+namespace Canon\Foundation;
 
 class Application
 {
 	/**
-	 * The Enabler framework version.
+	 * The Canon framework version.
 	 * @var string
 	 */
 	const VERSION = '1.0.0';
 
 	/**
-	 * The root path for the Enabler installation.
+	 * The root path for the Canon installation.
 	 * @var string
 	 */
 	protected $rootPath;
 
 	/**
-	 * Create a new Enabler application instance.
+	 * Create a new Canon application instance.
 	 */
 	public function __construct($rootPath = null)
 	{

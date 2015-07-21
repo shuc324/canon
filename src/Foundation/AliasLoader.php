@@ -1,6 +1,6 @@
 <?php
 
-namespace Enabler\Foundation;
+namespace Canon\Foundation;
 
 /**
  * Example: AliasLoader::getInstance($aliases)->register();
@@ -22,7 +22,7 @@ class AliasLoader
 
 	/**
 	 * The singleton instance of the loader.
-	 * @var  \Enabler\Foundation\AliasLoader
+	 * @var  \Canon\Foundation\AliasLoader
 	 */
 	protected static $instance;
 
@@ -38,7 +38,7 @@ class AliasLoader
     /**
      * Set the value of the singleton alias loader.
      *
-     * @param \Illuminate\Foundation\AliasLoader $loader
+     * @param \Canon\Foundation\AliasLoader $loader
      */
     public static function setInstance($loader)
     {
@@ -48,7 +48,7 @@ class AliasLoader
 	/**
 	 * Get or create the singleton alias loader instance
 	 * @param array $aliases
-	 * @return \Enabler\Foundation\AliasLoader
+	 * @return \Canon\Foundation\AliasLoader
 	 */
 	public static function getInstance(array $aliases = [])
 	{
